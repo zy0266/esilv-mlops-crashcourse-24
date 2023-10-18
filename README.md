@@ -26,11 +26,10 @@ Course end: October 23th
 ## [Module 1: Introduction to MLOps](lessons/00-intro)
 
 * What is MLOps
-* Why do we need MLOps
-* Running example: NY Taxi trips dataset
 * Course overview
-* Prerequisites and setup
 * Coding best practices
+* Prerequisites and setup
+* Running example: NY Taxi trips dataset
 
 
 ## [Module 2: Experiment Tracking](lessons/01-model-and-experiment-management)
@@ -64,7 +63,6 @@ Course end: October 23th
 * Model retraining
 * Concept drift
 * Data drift & data management
-* Practice
 
 
 ## [Module 6: Project]
@@ -73,7 +71,7 @@ Course end: October 23th
 
 ## Instructors
 
-- Delattre Bruce
-- Brito Henrique
-- Bertrand Jules
-- Serra Luca
+- DELATTRE Bruce
+- BRITO Henrique
+- BERTRAND Jules
+- SERRA Luca
