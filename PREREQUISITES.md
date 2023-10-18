@@ -99,7 +99,7 @@ During session 2 of this course, you will need to build a Docker image yourself.
 Place your terminal at the root of the project and run:
 
 ```bash
-$ docker build -t "nyc-taxi:prerun" -f "lessons/02-model-deployment/app.Dockerfile" ./lessons/02-model-deployment
+$ docker build -t "nyc-taxi:prerun" -f "lessons/02-model-deployment/Dockerfile.app" ./lessons/02-model-deployment
 ```
 
 ### ✅ Check your Installation - Docker Pull
@@ -221,7 +221,7 @@ Or one environment with Python 3.8 and dependencies for project A and another wi
 To create a conda environment, run:
 
 ```bash
-$ conda create --name mlops-course python=3.10 -y
+$ conda create --name foo-env python=3.10 -y
 ```
 
 #### Activate Conda Environment
@@ -230,7 +230,7 @@ To use python version and dependencies from a conda environment, you need to act
 
 To activate the environment, run:
 ```bash
-$ conda activate mlops-course
+$ conda activate foo-env
 ```
 
 > [!Warning]
@@ -248,7 +248,7 @@ Open a terminal, you should be able to run the following commands and have a sim
 ```bash
 $ conda env list
 base                     /path/to/miniconda3
-mlops-course          *  /path/to/miniconda3/envs/mlops-course
+foo-env          *  /path/to/miniconda3/envs/foo-env
 ```
 
 ```bash
@@ -285,7 +285,7 @@ $ conda info
 
 ```bash
 $ conda list
-# packages in environment at /Users/jules.bertrand/miniconda3/envs/mlops-course:
+# packages in environment at /Users/jules.bertrand/miniconda3/envs/foo-env:
 #
 # Name                    Version                   Build  Channel
 bzip2                     1.0.8                h1de35cc_0
