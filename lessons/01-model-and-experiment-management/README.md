@@ -42,4 +42,4 @@ You'll have to navigate through [MLFlow Documentation](https://mlflow.org/docs/l
 
 ### Homework
 
-Please go through the notebook associated with this lesson.
+Please go through the notebook associated with this lesson. Be sure to install the requirements for this session using the dependencies defined [here](./requirements.txt)
