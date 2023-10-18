@@ -35,7 +35,7 @@ To complete this module, you will need three samples of data:
 interpretable performances. Here we use data volumes that fit locally and allow for pipeline building and fast execution, but we do not focus on model performance and interpretability as it is not the main focus of this course.
 
 > **Data location** :
-> Please create a "00-data" folder in the course root directory and place the downloaded files inside. \
+> Please place the downloaded files inside the "data" folder in the course root directory. \
 > If the names are different, please rename your files to "yellow_tripdata_2021-01.parquet", "yellow_tripdata_2021-02.parquet", and "yellow_tripdata_2021-03.parquet" respectively.
 
 ### Introduction Notebook
@@ -44,3 +44,5 @@ A notebook implementing the machine learning steps to predict Taxi trip duration
 - The features that are used
 - The target variable and how it is computed
 - The models that are used to fit the data
+
+> Be sure to create a virtual environemnt with the requirements specified [here](./requirements.txt) before running the notebook
