@@ -199,10 +199,18 @@ These two resources are worth reading:
 
 ### Demo
 
-- Let's create a new environment to run our hello world project using the `install_env.sh` script.
+- Let's create a new environment to run our hello world project using the `install_env.sh` script. Make sure you are at `best-practices` and run:
 
 ```bash
-bash install_env.sh
+pip install pip-tools
+```
+
+```bash
+bash bin/install_env.sh
+```
+
+```bash
+conda activate foo-env
 ```
 
 ## Locally check your code
