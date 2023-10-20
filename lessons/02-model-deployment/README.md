@@ -73,6 +73,8 @@ def save_pickle(path: str, obj: Any):
         pickle.dump(obj, f)
 ```
 
+* 1.3 Update `predict` function to be able to load a pickle model from a path instead of having the model object as a parameter.
+
 #### 2 - We will populate the `web_service/lib/models.py` file with `pydantic` models that will serve as type hints for your app.
 
 Starting by defining your inputs and outputs is often a good idea in app development because it will guide the decisions you make in designing your software.
