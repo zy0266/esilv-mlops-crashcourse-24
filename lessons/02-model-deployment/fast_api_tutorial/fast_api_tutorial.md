@@ -85,11 +85,13 @@ The next step is to create an operation that receives information from the user 
 
 ```python
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, StrictStr
 
 # Define a data model for the request body
+# We're using StrictStr to ensure that the name is a string
+# More information here: https://stackoverflow.com/questions/72263682/checking-input-data-types-in-pydantic
 class Item(BaseModel):
-    name: str
+    name: StrictStr
 
 # Initiate the FastAPI app
 app = FastAPI()
