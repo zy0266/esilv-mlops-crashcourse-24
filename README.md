@@ -2,7 +2,7 @@
 
 ## Objective
 
-Teach practical aspects of productionizing ML services — from collecting requirements to model deployment and monitoring.
+Teach practical aspects of productionizing ML services — from collecting requirements to model deployment and monitoring
 
 ## [MANDATORY] Pre-requisites & setup
 
