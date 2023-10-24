@@ -75,3 +75,4 @@ Course end: October 23th
 - BRITO Henrique
 - BERTRAND Jules
 - SERRA Luca
+
