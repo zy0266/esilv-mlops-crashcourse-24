@@ -71,8 +71,6 @@ Course end: January 31st
 
 ## Instructors
 
-- DELATTRE Bruce
-- BRITO Henrique
-- BERTRAND Jules
-- SERRA Luca
+- ROHART Capucine (capucine.rohart@artefact.com)
+- KEENER Jeremy (jeremy.keener@artefact.com)
 
