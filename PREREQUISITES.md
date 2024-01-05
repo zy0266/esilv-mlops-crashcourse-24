@@ -3,13 +3,12 @@
 > [!Important]
 > The course is dense.
 >
-> You won't have time to install and configure everything on D-day.
+> You need to install and configure everything before the second class.
 >
 > You won't be able to follow the course if you don't have everything installed and working.
 >
 > 📣 **Please make sure you have everything installed and working before the course starts.** 📣
 >
-> You know your school WiFi better than we do, don't gamble on it.
 
 > [!Important]
 > We will be using Docker for this course, which can use up a lot of your disk.
@@ -63,7 +62,7 @@ Docker Desktop is a tool for MacOS and Windows machines for the building and sha
 ### Download and Install Docker Desktop
 
 > [!Warning]
-> 📣 **This step is the most time consuming one. You will not be able to perform it at HEC.** 📣
+> 📣 **This step is the most time consuming one. Install it at home rather than gambling with the school's wifi.** 📣
 
 If you do not have `Docker Desktop` installed, you will need to install it. You can follow the official instructions:
 
@@ -316,8 +315,7 @@ Python 3.10.6
 #### Create and install requirements
 
 > [!Warning]
-> You will not have access to the course content before the course starts.
-> So here is a requirements sample you should try to install before the course starts.
+> Here is a requirements sample you should try to install before the course starts.
 
 1. Create a `requirements-temp.txt` file
 ```bash
