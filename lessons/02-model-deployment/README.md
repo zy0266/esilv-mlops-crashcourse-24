@@ -55,13 +55,31 @@ In this first part, you will create a simple application that runs locally on yo
 
 > *In the previous lectures, you have packaged your code into two functions: `train_model` and `predict`. To fulfill the Lab's objective, do you need both these functions?*
 
-* 1.2 Copy the serialized version of your model and your preprocessor (DictVectorizer) into `web_service/local_models`
+* 1.2 Copy the serialized version of your model and your preprocessor (DictVectorizer) into `web_service/local_models`. More information about serialization of Python objects and pickle. Use the following functions:
+```python
+from typing import Any
+
+import pickle
+
+
+def load_pickle(path: str):
+    with open(path, "rb") as f:
+        loaded_obj = pickle.load(f)
+    return loaded_obj
+
+
+def save_pickle(path: str, obj: Any):
+    with open(path, "wb") as f:
+        pickle.dump(obj, f)
+```
+
+* 1.3 Update `predict` function to be able to load a pickle model from a path instead of having the model object as a parameter.
 
 #### 2 - We will populate the `web_service/lib/models.py` file with `pydantic` models that will serve as type hints for your app.
 
 Starting by defining your inputs and outputs is often a good idea in app development because it will guide the decisions you make in designing your software.
 
-Create a `pydantic` model that specifies the input the user should provide. *See an example [here](https://github.com/artefactory/xhec-mlops-crashcourse-2023/blob/feature-deployment/lessons/02-model-deployment/fast_api_tutorial/fast_api_tutorial.md#create-a-post-operation)*
+Create a `pydantic` model that specifies the input the user should provide. *See an example [here](./fast_api_tutorial/fast_api_tutorial.md#create-a-post-operation)*
 
 > *Do you expect a single value or a list of values?*
 
