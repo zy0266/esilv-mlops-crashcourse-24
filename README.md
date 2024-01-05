@@ -18,8 +18,8 @@ You can find all pre-requisites and setup instructions [here](PREREQUISITES.md).
 
 ## Timeline
 
-Course start: October 19th
-Course end: October 23th
+Course start: January 8th 
+Course end: January 31st
 
 ## Syllabus
 
