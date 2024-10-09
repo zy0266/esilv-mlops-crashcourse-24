@@ -18,8 +18,8 @@ You can find all pre-requisites and setup instructions [here](PREREQUISITES.md).
 
 ## Timeline
 
-Course start: January 8th 
-Course end: January 31st
+Course start: October 9th 
+Course end: January 6th
 
 ## Syllabus
 
@@ -72,5 +72,4 @@ Course end: January 31st
 ## Instructors
 
 - ROHART Capucine (capucine.rohart@artefact.com)
-- KEENER Jeremy (jeremy.keener@artefact.com)
 
