@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/c/10.9/esilv-mlops-crashcourse-24/lessons/01-model-and-experiment-management/mlruns/613276048632857551/f9beb093e61142b7ad285727143085d2/artifacts
+end_time: 1736017358574
+entry_point_name: ''
+experiment_id: '613276048632857551'
+lifecycle_stage: active
+run_id: f9beb093e61142b7ad285727143085d2
+run_name: persistent-tern-785
+run_uuid: f9beb093e61142b7ad285727143085d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736017358490
+status: 3
+tags: []
+user_id: c

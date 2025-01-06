@@ -1,0 +1,16 @@
+services:
+  prefect-server:
+    image: prefecthq/prefect:latest
+    container_name: prefect-server
+    ports:
+      - "4200:4200"  # Expose port 4200 for Prefect UI and API
+    environment:
+      - PREFECT_SERVER=true
+      - PREFECT_API_URL=http://0.0.0.0:4200/api  # Set API URL
+    networks:
+      - prefect-net
+
+networks:
+  prefect-net:
+    driver: bridge
+

@@ -18,7 +18,7 @@ Going from notebooks to scripts is, by itself, a simple task. However, it can al
 
 ```
 ├── .github                       <- Where we set up interactions with GitHub such as actions and templates
-├── .gitlab-ci.yml                <- Where we define a CI if we are using GitLab instead of GitHub
+├── .gitlab-ci.yml                <- Where we define a CI if we are using GitLab instead of GitHub(continouse integration)
 ├── docs                          <- Project documentation, often generated automatically by tools like `Sphinx` or `mkdocs`
 ├── config                        <- Config variables stored in yaml, toml or py files
 ├── lib                           <- Main Package. This is where the code lives. Sometimes it is also called `src`
